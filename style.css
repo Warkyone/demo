@@ -23,7 +23,7 @@ input::-webkit-inner-spin-button {
     margin: 0; /* <-- Apparently some margin are still there even though it's hidden */
 }
 
-body {
+html, body {
   position: absolute;
   top: 0;
   left: 0;
@@ -41,7 +41,9 @@ body {
   font-family: Helvetica, Verdana, Arial, sans-serif;
 
   display: flex;
-  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
 }
 
 canvas {
